@@ -1,0 +1,20 @@
+<model-viewer src="chair2.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.67" environment-image="legacy" exposure="1" shadow-softness="1" auto-rotate camera-orbit="-42.49deg 80.99deg 6.908m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.990414467080041m 1.3971452641112976m 0.03889299626186471m" data-normal="0.3274480182325214m 0.02085669091759902m 0.9446389753760757m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Stem</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.14426352409653864m 2.6004588873026524m 0.019550085067749023m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Swing</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.17179995953042226m 0.6255597895732021m 0.006489523481403747m" data-normal="-0.8475297813922517m 0.5293231497420938m -0.03886222845271601m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Seat</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-1.0377187955792717m -0.014855396978867175m 0.08489141446524673m" data-normal="-0.9290363183644746m -0.3471318713716688m 0.12802727458547894m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Base</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
